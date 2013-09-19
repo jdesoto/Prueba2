@@ -1,0 +1,2794 @@
+<data>
+ <!-- Config dump done at Thu Sep 12 11:52:27 +02 2013. CP560 SW: 2.2.2 2012-09-28 13:35:07 s/n: 5868 -->
+ <alarms>
+  <alarm_log table_columns="127" field_delimiter=";"/>
+  <snmp v2_status_ch_traps="false" v2_trap_mode="1" trap_com="public" trap_version="2">
+   <trap_servers/>
+   <agent r_com="public" w_com="private" contact="" location=""/>
+  </snmp>
+  <extif>
+   <r1 levels="64"/>
+   <r2 levels="64"/>
+   <l1 levels="64"/>
+   <gpi_1 reset_enable="false"/>
+  </extif>
+  <vir_relays>
+   <vir_rel cnt_threshold="1" _id="0" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="1" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="2" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="3" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="4" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="5" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="6" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="7" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="8" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="9" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="10" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="11" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="12" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="13" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="14" exp="" enable="false" label=""/>
+   <vir_rel cnt_threshold="1" _id="15" exp="" enable="false" label=""/>
+  </vir_relays>
+  <global_config>
+   <evt trap="true" sv="6" _id="106" log="true"/>
+   <evt trap="true" sv="6" _id="130" log="true"/>
+   <evt trap="true" sv="6" _id="131" log="true"/>
+   <evt trap="true" sv="6" _id="133" log="true"/>
+   <evt trap="true" sv="6" _id="134" log="true"/>
+   <evt trap="true" sv="3" _id="140" log="true"/>
+   <evt trap="true" sv="3" _id="150" log="true"/>
+   <evt trap="true" sv="3" _id="151" log="true"/>
+   <evt trap="true" sv="6" _id="153" log="true"/>
+   <evt trap="true" sv="6" _id="154" log="true"/>
+   <evt trap="true" sv="6" _id="155" log="true"/>
+   <evt trap="true" sv="3" _id="157" log="true"/>
+   <evt trap="true" sv="3" _id="160" log="true"/>
+   <evt trap="true" sv="3" _id="161" log="true"/>
+   <evt trap="true" sv="3" _id="162" log="true"/>
+   <evt trap="true" sv="3" _id="163" log="true"/>
+   <evt trap="true" sv="6" _id="164" log="true"/>
+   <evt trap="true" sv="2" _id="165" log="true"/>
+   <evt trap="true" sv="2" _id="166" log="true"/>
+   <evt trap="true" sv="2" _id="167" log="true"/>
+   <evt trap="true" sv="3" _id="168" log="true"/>
+   <evt trap="true" sv="2" _id="169" log="true"/>
+   <evt trap="true" sv="6" _id="200" log="true"/>
+   <evt trap="true" sv="6" _id="201" log="true"/>
+   <evt trap="true" sv="2" _id="210" log="true"/>
+   <evt trap="true" sv="3" _id="211" log="true"/>
+   <evt trap="true" sv="3" _id="212" log="true"/>
+   <evt trap="true" sv="2" _id="501" log="true"/>
+   <evt trap="true" sv="2" _id="502" log="true"/>
+   <evt trap="true" sv="2" _id="503" log="true"/>
+   <evt trap="true" sv="2" _id="504" log="true"/>
+   <evt trap="true" sv="2" _id="505" log="true"/>
+   <evt trap="true" sv="3" _id="506" log="true"/>
+   <evt trap="true" sv="3" _id="507" log="true"/>
+   <evt trap="true" sv="1" _id="508" log="true"/>
+   <evt trap="true" sv="2" _id="517" log="true"/>
+   <evt trap="true" sv="6" _id="518" log="true"/>
+   <evt trap="true" sv="2" _id="519" log="true"/>
+   <evt trap="true" sv="2" _id="520" log="true"/>
+   <evt trap="true" sv="2" _id="521" log="true"/>
+   <evt trap="true" sv="2" _id="524" log="true"/>
+   <evt trap="true" sv="2" _id="526" log="true"/>
+   <evt trap="true" sv="2" _id="527" log="true"/>
+   <evt trap="true" sv="2" _id="528" log="true"/>
+   <evt trap="true" sv="5" _id="529" log="true"/>
+   <evt trap="true" sv="2" _id="530" log="true"/>
+   <evt trap="true" sv="3" _id="531" log="true"/>
+   <evt trap="true" sv="3" _id="532" log="true"/>
+   <evt trap="true" sv="3" _id="533" log="true"/>
+   <evt trap="true" sv="2" _id="534" log="true"/>
+   <evt trap="true" sv="5" _id="1100" log="true"/>
+   <evt trap="true" sv="4" _id="1101" log="true"/>
+   <evt trap="true" sv="6" _id="1110" log="true"/>
+   <evt trap="true" sv="3" _id="1120" log="true"/>
+   <evt trap="true" sv="3" _id="1131" log="true"/>
+   <evt trap="true" sv="3" _id="1132" log="true"/>
+   <evt trap="true" sv="3" _id="1133" log="true"/>
+   <evt trap="true" sv="3" _id="1134" log="true"/>
+   <evt trap="true" sv="3" _id="1140" log="true"/>
+   <evt trap="true" sv="3" _id="1151" log="true"/>
+   <evt trap="true" sv="3" _id="1152" log="true"/>
+   <evt trap="true" sv="3" _id="1153" log="true"/>
+   <evt trap="true" sv="3" _id="1160" log="true"/>
+   <evt trap="true" sv="1" _id="1161" log="true"/>
+   <evt trap="true" sv="5" _id="1508" log="true"/>
+   <evt trap="true" sv="6" _id="1510" log="true"/>
+   <evt trap="true" sv="3" _id="1542" log="true"/>
+   <evt trap="true" sv="3" _id="1543" log="true"/>
+   <evt trap="true" sv="3" _id="1544" log="true"/>
+   <evt trap="true" sv="3" _id="1545" log="true"/>
+   <evt trap="true" sv="1" _id="1801" log="true"/>
+   <evt trap="true" sv="1" _id="1802" log="true"/>
+   <evt trap="true" sv="1" _id="1803" log="true"/>
+   <evt trap="true" sv="1" _id="1812" log="true"/>
+   <evt trap="true" sv="1" _id="1813" log="true"/>
+   <evt trap="true" sv="3" _id="2100" log="true"/>
+  </global_config>
+ </alarms>
+ <xap21 auto_login_mode="0"/>
+ <users/>
+ <dev>
+  <product_info inventory_id="" devname=""/>
+  <system opmode_name="Not found"/>
+  <fan/>
+  <time sw="600" tz="2">
+   <timesources>
+    <tssntp _id="0" ip="150.214.94.15" pri="0" index="0" enable="true"/>
+    <tssntp _id="1" ip="158.227.98.15" pri="0" index="1" enable="false"/>
+    <tssntp _id="2" ip="158.227.199.200" pri="0" index="2" enable="true"/>
+    <tssntp _id="3" ip="130.206.210.253" pri="0" index="3" enable="false"/>
+    <tssntp _id="4" ip="0.0.0.0" pri="0" index="4" enable="false"/>
+    <tstdt _id="5" pri="0" index="5" enable="false"/>
+    <tstot _id="6" pri="0" index="6" enable="false"/>
+    <tstdt _id="7" pri="0" index="7" enable="false"/>
+    <tstot _id="8" pri="0" index="8" enable="false"/>
+    <tstdt _id="9" pri="0" index="9" enable="false"/>
+    <tstot _id="10" pri="0" index="10" enable="false"/>
+    <tstdt _id="11" pri="0" index="11" enable="false"/>
+    <tstot _id="12" pri="0" index="12" enable="false"/>
+    <tstdt _id="13" pri="0" index="13" enable="false"/>
+    <tstot _id="14" pri="0" index="14" enable="false"/>
+    <tstdt _id="15" pri="0" index="15" enable="false"/>
+    <tstot _id="16" pri="0" index="16" enable="false"/>
+    <tstdt _id="17" pri="0" index="17" enable="false"/>
+    <tstot _id="18" pri="0" index="18" enable="false"/>
+    <tstdt _id="19" pri="0" index="19" enable="false"/>
+    <tstot _id="20" pri="0" index="20" enable="false"/>
+   </timesources>
+  </time>
+  <guiprefs apply_confirm="false"/>
+  <interfaces>
+   <nw_interface_ctrl inbandenable="true" ip_addr="10.161.35.120" speed_duplex="100" dataenable="false" _id="0" gw_addr="10.161.32.1" net_mask="255.255.252.0" if_enable="true" pingenable="true">
+    <alarm_config _id="Ethernet">
+     <ac sv="0" _id="130"/>
+    </alarm_config>
+    <eth_stats/>
+    <vlan_interfaces/>
+   </nw_interface_ctrl>
+   <nw_interface inbandenable="true" prom_enable="false" ip_addr="10.90.90.145" speed_duplex="1000" dataenable="true" igmpv="3" _id="1" gw_addr="10.90.90.1" net_mask="255.255.255.0" overflow_bitrate="1000" mcrouter="0.0.0.0" if_enable="true" pingenable="true">
+    <alarm_config _id="Ethernet">
+     <ac sv="0" _id="130"/>
+     <ac sv="0" _id="153"/>
+     <ac sv="0" _id="131"/>
+     <ac sv="0" _id="134"/>
+    </alarm_config>
+    <eth_stats/>
+    <vlan_interfaces/>
+   </nw_interface>
+   <nw_interface inbandenable="true" prom_enable="false" ip_addr="10.161.35.78" speed_duplex="1000" dataenable="true" igmpv="3" _id="2" gw_addr="10.161.32.1" net_mask="255.255.252.0" overflow_bitrate="1000" mcrouter="0.0.0.0" if_enable="false" pingenable="true">
+    <alarm_config _id="Ethernet">
+     <ac sv="0" _id="130"/>
+     <ac sv="0" _id="153"/>
+     <ac sv="0" _id="131"/>
+     <ac sv="0" _id="134"/>
+    </alarm_config>
+    <eth_stats/>
+    <vlan_interfaces/>
+   </nw_interface>
+  </interfaces>
+  <network>
+   <ip_routes/>
+   <ip_forward fwd_enable="false"/>
+   <tools>
+    <ping ttl="255" ping_cnt="3" ip="10.161.34.118" interval="5"/>
+   </tools>
+  </network>
+  <clk_regulator mode="1">
+   <alarm_config _id="GPS">
+    <ac sv="0" _id="201"/>
+    <ac sv="0" _id="200"/>
+   </alarm_config>
+  </clk_regulator>
+  <alarm_config>
+   <ag _id="User">
+    <ac sv="0" _id="501"/>
+    <ac sv="0" _id="502"/>
+    <ac sv="0" _id="524"/>
+   </ag>
+   <ag _id="Hardware">
+    <ac sv="0" _id="161"/>
+    <ac sv="0" _id="162"/>
+    <ac sv="0" _id="164"/>
+   </ag>
+   <ag _id="Other">
+    <ac sv="0" _id="163"/>
+    <ac sv="0" _id="165"/>
+    <ac sv="0" _id="166"/>
+    <ac sv="0" _id="167"/>
+    <ac sv="0" _id="503"/>
+    <ac sv="0" _id="505"/>
+    <ac sv="0" _id="517"/>
+    <ac sv="0" _id="526"/>
+    <ac sv="0" _id="169">
+     <overrides/>
+    </ac>
+    <ac sv="0" _id="520"/>
+    <ac sv="0" _id="521"/>
+    <ac sv="0" _id="527"/>
+    <ac sv="0" _id="528"/>
+    <ac sv="0" _id="530"/>
+    <ac sv="2" _id="529"/>
+   </ag>
+  </alarm_config>
+  <c_load>
+   <col>
+    <clr _id="0" id="0" description="DASDASD" s_filesize="0" state=""/>
+    <clr _id="1" id="1" description="" s_filesize="0" state=""/>
+    <clr _id="2" id="2" description="" s_filesize="0" state=""/>
+    <clr _id="3" id="3" description="" s_filesize="0" state=""/>
+    <clr _id="4" id="4" description="" s_filesize="0" state=""/>
+    <clr _id="5" id="5" description="" s_filesize="0" state=""/>
+    <clr _id="6" id="6" description="" s_filesize="0" state=""/>
+    <clr _id="7" id="7" description="" s_filesize="0" state=""/>
+   </col>
+  </c_load>
+  <txp mode="1" require_http_post="true" read_user_level="0" anonymous_read="true" write_user_level="1"/>
+  <sfi/>
+  <port_map>
+   <bnc format="0" mode="out-copy" _id="0"/>
+   <bnc format="0" mode="out-copy" _id="1"/>
+   <bnc format="0" mode="out-copy" _id="2"/>
+   <bnc format="0" mode="out-copy" _id="3"/>
+   <bnc format="0" mode="out-copy" _id="4"/>
+   <bnc format="0" mode="in" _id="5"/>
+   <bnc format="0" mode="in" _id="6"/>
+   <bnc format="0" mode="in" _id="7"/>
+   <bnc format="0" mode="out-copy" _id="8"/>
+   <bnc format="0" mode="out-copy" _id="9"/>
+  </port_map>
+  <ip_assignment enable_srv="true" enable_set="true"/>
+ </dev>
+ <snmp_mib/>
+ <ports>
+  <asi_input format="0" _id="0" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1110"/>
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+  </asi_input>
+  <asi_input format="0" _id="1" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1110"/>
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+  </asi_input>
+  <asi_input format="0" _id="2" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1110"/>
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+  </asi_input>
+  <asi_input format="0" _id="3" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1110"/>
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+  </asi_input>
+  <asi_input format="0" _id="4" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1110"/>
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+  </asi_input>
+  <asi_input format="0" _id="5" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1110"/>
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+  </asi_input>
+  <asi_input format="0" _id="6" tsmode="2" enable="true" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1110"/>
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+  </asi_input>
+  <asi_input format="0" _id="7" tsmode="2" enable="true" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1110"/>
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+  </asi_input>
+  <asi_output reed_solomon="false" format="0" spread="1" _id="8" tsmode="2" pktlen="188" filtermip="true" ratemode="2" enable="true" tsrate="5061630" label="">
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1510">
+      <off_hyst sec="10"/>
+     </ac>
+     <ac sv="0" _id="1508">
+      <overrides/>
+      <off_hyst sec="10"/>
+     </ac>
+     <ac sv="0" _id="1544">
+      <off_hyst sec="10"/>
+     </ac>
+     <ac sv="0" _id="1545">
+      <overrides/>
+      <off_hyst sec="10"/>
+     </ac>
+    </ag>
+    <ag _id="IP">
+     <ac sv="0" _id="140"/>
+     <ac sv="0" _id="106"/>
+    </ag>
+   </alarm_config>
+   <tsconfig>
+    <inputs>
+     <src globid="0" _id="0" active="false"/>
+     <src globid="1" _id="1" active="false"/>
+     <src globid="2" _id="2" active="false"/>
+     <src globid="3" _id="3" active="false"/>
+     <src globid="4" _id="4" active="false"/>
+     <src globid="5" _id="5" active="false"/>
+     <src globid="6" _id="6" active="true"/>
+     <src globid="7" _id="7" active="true"/>
+     <src_ip globid="16" _id="16" active="true"/>
+     <src_ip globid="17" _id="17" active="true"/>
+     <src_ip globid="18" _id="18" active="true"/>
+     <src_ip globid="19" _id="19" active="true"/>
+     <src_ip globid="20" _id="20" active="true"/>
+     <src_ip globid="21" _id="21" active="true"/>
+     <src_ip globid="22" _id="22" active="true"/>
+     <src_ip globid="23" _id="23" active="true"/>
+    </inputs>
+   </tsconfig>
+   <iptx>
+    <ip_dests tspktpf="7">
+     <ip_dest_ts rtp_layer="true" ttl="10" srcudpport="1000" mansrcipenable="false" mcrouterenable="true" tos="0" destip="10.90.90.141" _id="0" vlanpri="0" destudpport="1000" staticmac="ff:ff:ff:ff:ff:ff" enable="true" staticmacenable="true" if_name_man="eth1" vlanpri_o="false" if_selmode="1" mansrcip="10.90.90.70">
+      <ping enable="false" interval="5"/>
+      <fec mode="1"/>
+     </ip_dest_ts>
+    </ip_dests>
+    <fec_common depth="4" length="4" skew="false"/>
+   </iptx>
+   <t2mi t2_profile="1">
+    <l1 l1_post_scr="false" network_id="1018" l1_mod="3" papr="0" num_data_symbols="48" cell_id="0" guard_interval="4" num_t2_frames="2" t2_system_id="13" preamble_format="0" t2_version="2" bwt_ext="false" fft_size="3" pilot_pattern="6" bw="2"/>
+    <t2mistream pcr_pid="8189" ts_pid="4096" pat_transmit="true" pmt_transmit="true" pmt_pid="179" suboptimal_packing="true" change_pat_on_sync="false" pcr_interval="40" pmt_program_id="269" pat_stream_id="42093" pcr_transmit="true"/>
+    <fef type="50" length="0" enable="false" s1="0" s2="0" interval="2">
+     <sub_parts>
+      <tx_sig _id="0" tx_id="0" other_use_period="0"/>
+     </sub_parts>
+    </fef>
+    <rfs>
+     <rf _id="0" id="0" frequency="802000000"/>
+    </rfs>
+    <plps req_subslices="135" variable_fec_blocks="false" ena_auto_subslices="true">
+     <plp in_band_b="true" bufs="128" frame_int="1" rotation="0" asi_in_port="7" req_rate="4000000" npd="1" mod="0" cod="7" dd_unit="0" bufs_unit="1" fec_type="0" _id="1" time_il_type="1" payload_type="3" type="1" issy="2" group_id="0" id="1" design_delay="0" plp_mode="0" avoid_split="0" time_il_length="3" in_band_a="false" plp_id="1"/>
+    </plps>
+    <auxs/>
+    <timestamp leap_seconds="2" enable_mip="false" transition_date="1293840000" delay="200" type="1" mip_type="1" mip_delay="0" leap_second_increment="0"/>
+    <individual_addressing_frame enable="false"/>
+   </t2mi>
+  </asi_output>
+  <ip_input _id="16" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="IP">
+     <ac sv="0" _id="155"/>
+     <ac sv="0" _id="151"/>
+     <ac sv="0" _id="150"/>
+     <ac sv="0" _id="154"/>
+     <ac sv="0" _id="157"/>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+   <iprx>
+    <ip_sources>
+     <ip_src_ts mcaddr="225.1.2.3" mcsrc="255.255.255.255" _id="0" udpport="7000" usemc="false" enable="false" if_name_man="eth1">
+      <ipstat/>
+      <ping enable="true" interval="5"/>
+      <fec enable="true"/>
+     </ip_src_ts>
+    </ip_sources>
+    <buff pres_jitter="600"/>
+    <fec_common/>
+    <reg vbrmaxrate="40000000" latmon="false" mipmon="true" clk_oprange_ppm="25" tsratemode="1" min_lat_lim="50000" brmon="true" max_lat_lim="50000"/>
+   </iprx>
+  </ip_input>
+  <ip_input _id="17" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="IP">
+     <ac sv="0" _id="155"/>
+     <ac sv="0" _id="151"/>
+     <ac sv="0" _id="150"/>
+     <ac sv="0" _id="154"/>
+     <ac sv="0" _id="157"/>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+   <iprx>
+    <ip_sources>
+     <ip_src_ts mcaddr="0.0.0.0" mcsrc="255.255.255.255" _id="0" udpport="6500" usemc="false" enable="false" if_name_man="eth1">
+      <ipstat/>
+      <ping enable="true" interval="5"/>
+      <fec enable="false"/>
+     </ip_src_ts>
+    </ip_sources>
+    <buff pres_jitter="600"/>
+    <fec_common/>
+    <reg vbrmaxrate="40000000" latmon="false" mipmon="true" clk_oprange_ppm="25" tsratemode="1" min_lat_lim="50000" brmon="true" max_lat_lim="50000"/>
+   </iprx>
+  </ip_input>
+  <ip_input _id="18" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="IP">
+     <ac sv="0" _id="155"/>
+     <ac sv="0" _id="151"/>
+     <ac sv="0" _id="150"/>
+     <ac sv="0" _id="154"/>
+     <ac sv="0" _id="157"/>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+   <iprx>
+    <ip_sources>
+     <ip_src_ts mcaddr="0.0.0.0" mcsrc="255.255.255.255" _id="0" udpport="6000" usemc="false" enable="false" if_name_man="eth1">
+      <ipstat/>
+      <ping enable="true" interval="5"/>
+      <fec enable="false"/>
+     </ip_src_ts>
+    </ip_sources>
+    <buff pres_jitter="600"/>
+    <fec_common/>
+    <reg vbrmaxrate="40000000" latmon="false" mipmon="true" clk_oprange_ppm="25" tsratemode="1" min_lat_lim="50000" brmon="true" max_lat_lim="50000"/>
+   </iprx>
+  </ip_input>
+  <ip_input _id="19" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="IP">
+     <ac sv="0" _id="155"/>
+     <ac sv="0" _id="151"/>
+     <ac sv="0" _id="150"/>
+     <ac sv="0" _id="154"/>
+     <ac sv="0" _id="157"/>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+   <iprx>
+    <ip_sources>
+     <ip_src_ts mcaddr="0.0.0.0" mcsrc="255.255.255.255" _id="0" udpport="5500" usemc="false" enable="false" if_name_man="eth1">
+      <ipstat/>
+      <ping enable="true" interval="5"/>
+      <fec enable="false"/>
+     </ip_src_ts>
+    </ip_sources>
+    <buff pres_jitter="600"/>
+    <fec_common/>
+    <reg vbrmaxrate="40000000" latmon="false" mipmon="true" clk_oprange_ppm="25" tsratemode="1" min_lat_lim="50000" brmon="true" max_lat_lim="50000"/>
+   </iprx>
+  </ip_input>
+  <ip_input _id="20" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="IP">
+     <ac sv="0" _id="155"/>
+     <ac sv="0" _id="151"/>
+     <ac sv="0" _id="150"/>
+     <ac sv="0" _id="154"/>
+     <ac sv="0" _id="157"/>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+   <iprx>
+    <ip_sources>
+     <ip_src_ts mcaddr="0.0.0.0" mcsrc="255.255.255.255" _id="0" udpport="2500" usemc="false" enable="false" if_name_man="eth1">
+      <ipstat/>
+      <ping enable="true" interval="5"/>
+      <fec enable="false"/>
+     </ip_src_ts>
+    </ip_sources>
+    <buff pres_jitter="600"/>
+    <fec_common/>
+    <reg vbrmaxrate="40000000" latmon="false" mipmon="true" clk_oprange_ppm="25" tsratemode="1" min_lat_lim="50000" brmon="true" max_lat_lim="50000"/>
+   </iprx>
+  </ip_input>
+  <ip_input _id="21" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="IP">
+     <ac sv="0" _id="155"/>
+     <ac sv="0" _id="151"/>
+     <ac sv="0" _id="150"/>
+     <ac sv="0" _id="154"/>
+     <ac sv="0" _id="157"/>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+   <iprx>
+    <ip_sources>
+     <ip_src_ts mcaddr="0.0.0.0" mcsrc="255.255.255.255" _id="0" udpport="3500" usemc="false" enable="false" if_name_man="eth1">
+      <ipstat/>
+      <ping enable="true" interval="5"/>
+      <fec enable="false"/>
+     </ip_src_ts>
+    </ip_sources>
+    <buff pres_jitter="600"/>
+    <fec_common/>
+    <reg vbrmaxrate="40000000" latmon="false" mipmon="true" clk_oprange_ppm="25" tsratemode="1" min_lat_lim="50000" brmon="true" max_lat_lim="50000"/>
+   </iprx>
+  </ip_input>
+  <ip_input _id="22" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="IP">
+     <ac sv="0" _id="155"/>
+     <ac sv="0" _id="151"/>
+     <ac sv="0" _id="150"/>
+     <ac sv="0" _id="154"/>
+     <ac sv="0" _id="157"/>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+   <iprx>
+    <ip_sources>
+     <ip_src_ts mcaddr="0.0.0.0" mcsrc="255.255.255.255" _id="0" udpport="5500" usemc="false" enable="false" if_name_man="">
+      <ipstat/>
+      <ping enable="true" interval="5"/>
+      <fec enable="false"/>
+     </ip_src_ts>
+    </ip_sources>
+    <buff pres_jitter="600"/>
+    <fec_common/>
+    <reg vbrmaxrate="40000000" latmon="false" mipmon="true" clk_oprange_ppm="25" tsratemode="1" min_lat_lim="50000" brmon="true" max_lat_lim="50000"/>
+   </iprx>
+  </ip_input>
+  <ip_input _id="23" tsmode="2" enable="false" label="">
+   <psisi eit_so_ana="0" eit_sa_ana="0" tabs_ana="87">
+    <table_timeouts>
+     <tt _id="0" s="10" t="0"/>
+     <tt _id="1" s="10" t="1"/>
+     <tt _id="2" s="10" t="2"/>
+     <tt _id="3" s="10" t="3"/>
+     <tt _id="64" s="20" t="64"/>
+     <tt _id="65" s="20" t="65"/>
+     <tt _id="66" s="10" t="66"/>
+     <tt _id="70" s="20" t="70"/>
+     <tt _id="74" s="20" t="74"/>
+     <tt _id="78" s="15" t="78"/>
+     <tt _id="79" s="20" t="79"/>
+     <tt _id="80" s="60" t="80"/>
+     <tt _id="81" s="60" t="81"/>
+     <tt _id="82" s="60" t="82"/>
+     <tt _id="83" s="60" t="83"/>
+     <tt _id="84" s="60" t="84"/>
+     <tt _id="85" s="60" t="85"/>
+     <tt _id="86" s="60" t="86"/>
+     <tt _id="87" s="60" t="87"/>
+     <tt _id="88" s="60" t="88"/>
+     <tt _id="89" s="60" t="89"/>
+     <tt _id="90" s="60" t="90"/>
+     <tt _id="91" s="60" t="91"/>
+     <tt _id="92" s="60" t="92"/>
+     <tt _id="93" s="60" t="93"/>
+     <tt _id="94" s="60" t="94"/>
+     <tt _id="95" s="60" t="95"/>
+     <tt _id="96" s="60" t="96"/>
+     <tt _id="97" s="60" t="97"/>
+     <tt _id="98" s="60" t="98"/>
+     <tt _id="99" s="60" t="99"/>
+     <tt _id="100" s="60" t="100"/>
+     <tt _id="101" s="60" t="101"/>
+     <tt _id="102" s="60" t="102"/>
+     <tt _id="103" s="60" t="103"/>
+     <tt _id="104" s="60" t="104"/>
+     <tt _id="105" s="60" t="105"/>
+     <tt _id="106" s="60" t="106"/>
+     <tt _id="107" s="60" t="107"/>
+     <tt _id="108" s="60" t="108"/>
+     <tt _id="109" s="60" t="109"/>
+     <tt _id="110" s="60" t="110"/>
+     <tt _id="111" s="60" t="111"/>
+     <tt _id="112" s="60" t="112"/>
+     <tt _id="113" s="60" t="113"/>
+     <tt _id="115" s="60" t="115"/>
+    </table_timeouts>
+    <filter_config>
+     <f pid="16" _id="64"/>
+     <f pid="16" _id="65"/>
+     <f pid="17" _id="66"/>
+     <f pid="17" _id="70"/>
+     <f pid="17" _id="74"/>
+     <f pid="18" _id="78"/>
+     <f pid="18" _id="79"/>
+     <f pid="18" _id="80"/>
+     <f pid="18" _id="96"/>
+     <f pid="20" _id="112"/>
+     <f pid="19" _id="113"/>
+     <f pid="20" _id="115"/>
+    </filter_config>
+   </psisi>
+   <alarm_config>
+    <ag _id="ETR290 priority 1">
+     <ac sv="0" _id="1120">
+      <off_hyst sec="10"/>
+     </ac>
+     <ag _id="PAT Error">
+      <ac sv="0" _id="1131">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1132">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1133">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1134"/>
+     </ag>
+     <ac sv="0" _id="1140">
+      <overrides/>
+      <off_hyst sec="20"/>
+     </ac>
+     <ag _id="PMT Error">
+      <ac sv="0" _id="1151">
+       <limits l1="500"/>
+       <lim_overrides/>
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1152">
+       <off_hyst sec="15"/>
+      </ac>
+      <ac sv="0" _id="1153">
+       <overrides/>
+      </ac>
+     </ag>
+     <ac sv="0" _id="1160">
+      <overrides/>
+     </ac>
+     <ac sv="0" _id="1161">
+      <limits l1="10"/>
+      <overrides/>
+      <lim_overrides/>
+     </ac>
+    </ag>
+    <ag _id="IP">
+     <ac sv="0" _id="155"/>
+     <ac sv="0" _id="151"/>
+     <ac sv="0" _id="150"/>
+     <ac sv="0" _id="154"/>
+     <ac sv="0" _id="157"/>
+    </ag>
+    <ag _id="Content">
+     <ac sv="0" _id="1802">
+      <limits f1="213000.0" l1="213000"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1803">
+      <limits f1="0.0" l1="0"/>
+      <overrides/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1801">
+      <limits l1="0"/>
+      <lim_overrides/>
+     </ac>
+     <ac sv="0" _id="1812">
+      <limits l1="213000"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+     <ac sv="0" _id="1813">
+      <limits l1="0"/>
+      <lim_overrides/>
+      <off_hyst sec="15"/>
+     </ac>
+    </ag>
+    <ag _id="Other">
+     <ac sv="0" _id="1100"/>
+     <ac sv="0" _id="1101"/>
+    </ag>
+   </alarm_config>
+   <iprx>
+    <ip_sources>
+     <ip_src_ts mcaddr="0.0.0.0" mcsrc="255.255.255.255" _id="0" udpport="5500" usemc="false" enable="false" if_name_man="">
+      <ipstat/>
+      <ping enable="true" interval="5"/>
+      <fec enable="false"/>
+     </ip_src_ts>
+    </ip_sources>
+    <buff pres_jitter="600"/>
+    <fec_common/>
+    <reg vbrmaxrate="40000000" latmon="false" mipmon="true" clk_oprange_ppm="25" tsratemode="1" min_lat_lim="50000" brmon="true" max_lat_lim="50000"/>
+   </iprx>
+  </ip_input>
+ </ports>
+</data>
